@@ -700,6 +700,11 @@ a:hover {
   background-color: #0078ff;
 }
 
+#about-img {
+  height: 200px;
+  width: 200px;
+}
+
 /*======================================
 //--//-->   SERVICES
 ======================================*/
@@ -737,6 +742,15 @@ a:hover {
 
 .service-box .s-description {
   color: #4e4e4e;
+}
+
+.service-ico {
+  text-align: center;
+}
+
+#service-ico {
+  height: 100px;
+  width: 100px;
 }
 
 /*======================================
@@ -783,6 +797,7 @@ a:hover {
 .work-img {
   display: block;
   overflow: hidden;
+  height: 200px;
 }
 
 .work-img img {
@@ -1124,6 +1139,16 @@ footer .credits a {
   font-weight: 400;
   font-size: 13px;
 }
+
+/*======================================
+//--//-->   roundImage
+======================================*/
+#roundImage {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
 
 /*======================================
 //--//-->   BUTTON
